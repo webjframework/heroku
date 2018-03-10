@@ -1,9 +1,7 @@
 build:
   languages:
     - java
-  post:
-     - apt-get update  
-     - apt-get upgrade
-    - apt-get install python-setuptools gcc libssl-dev libffi-dev python-dev fuse-utils opencv-dev libhighgui2.4 libcvaux2.4 sikuli-ide python-pycurl python-libxml2 python-imaging  tesseract-ocr
+packages:
+    - python-setuptools
 run:
   web: bash -c "mkdir target/tomcat.$PORT; mkdir target/tomcat.$PORT/webapps; cp deployments/*.ini target/tomcat.$PORT/webapps; chmod a+x deployments/startup;  deployments/startup $PORT "
