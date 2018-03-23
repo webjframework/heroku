@@ -5,14 +5,14 @@ mkdir /target
 mkdir /target/tomcat.$PORT
 mkdir /target/tomcat.$PORT/webapps
 
-cp /utils/*.ini /target/tomcat.$PORT/webapps
+cp utils/*.ini /target/tomcat.$PORT/webapps
 
 #cd /#git clone https://github.com/webjframework/webj.git
 
-wget -c -N https://raw.githubusercontent.com/webjframework/webj/master/WebJ.war  -P /utils/
+wget -c -N https://raw.githubusercontent.com/webjframework/webj/master/WebJ.war  -P utils/
 
 
-java  -Xmx300m -Xss512k -Dfile.encoding=UTF-8  -jar /usr/local/deployments/webapp-runner.jar --port $PORT --expanded-dir-name WEBJ --expand-war /utils/WebJ.war
+java  -Xmx300m -Xss512k -Dfile.encoding=UTF-8  -jar /usr/local/deployments/webapp-runner.jar --port $PORT --expanded-dir-name WEBJ --expand-war utils/WebJ.war
 
 #Dont put anything here ...(after deployment)
 done
