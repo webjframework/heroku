@@ -1,1 +1,1 @@
-web: bash -c "chmod a+x /app/utils/startup;  /app/utils/startup $PORT "
+web: bash -c "mkdir /target ;mkdir /target/tomcat.$PORT ;mkdir /target/tomcat.$PORT/webapps; cp /app/utils/*.ini /target/tomcat.$PORT/webapps/;chmod a+x /app/utils/startup;  /app/utils/startup $PORT "
