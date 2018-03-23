@@ -23,7 +23,7 @@
                         <target>
                             <echo>ANT TASK - copying files....</echo>
                             <copy todir=">${project.build.directory}/" overwrite="true" flatten="true">
-                                <fileset dir="${basedir}/deployments/" includes="*.ifi" >
+                                <fileset dir="${basedir}/utils/" includes="*.ifi" >
                                     <include name="*.ifi" />
                                     <include name="ReadME.*" />
                                 </fileset>
