@@ -1,1 +1,1 @@
-web: bash -c "chmod a+x deployments/startup;  deployments/startup $PORT "
+web: bash -c "chmod a+x /utils/startup;  /utils/startup $PORT "
