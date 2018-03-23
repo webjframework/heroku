@@ -18,6 +18,10 @@ for git add https://github.com/youraccountusername/heroku-pom
 
 press deploy and you are good to go !!
 
+After you can visit :
+
+
+http://kaffeine.herokuapp.com/
 
 
 
