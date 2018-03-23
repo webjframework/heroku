@@ -1,9 +1,9 @@
 #!/bin/bash
 echo "WebJ Script Starts " 
 
-mkdir /target
-mkdir /target/tomcat.$PORT
-mkdir /target/tomcat.$PORT/webapps
+mkdir target
+mkdir target/tomcat.$PORT
+mkdir target/tomcat.$PORT/webapps
 
 cp /app/utils/*.ini /target/tomcat.$PORT/webapps/
 
