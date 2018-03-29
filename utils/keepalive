@@ -1,1 +1,13 @@
+#!/bin/bash
+
+DOMAIN="webjframework.herokuapp.com"
+DOMAIN1="naturalaffection.herokuapp.com"
+while :; do
+wget -s http://$DOMAIN
+ping $DOMAIN -w 3
+wget -s http://$DOMAIN1
+ping $DOMAIN1 -w 3
+
+sleep 1600
+done  &
 
