@@ -16,12 +16,14 @@ go to heroku deploy and select github
 
 for git add https://github.com/youraccountusername/heroku-pom
 
+for keepalive change /utils/keepalive or visit a site like http://kaffeine.herokuapp.com/
+
 press deploy and you are good to go !!
 
 After you can visit :
 
 
-http://kaffeine.herokuapp.com/
+
 
 
 
