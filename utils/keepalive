@@ -1,7 +1,6 @@
 #!/bin/bash
 DOMAIN="yourapp.herokuapp.com"
 while :; do
-wget -s http://$DOMAIN
-ping $DOMAIN -w 3
+wget --delete-after  http://$DOMAIN
 sleep 1600
 done  &
