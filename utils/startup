@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "WebJ Script Starts " 
-echo $DATABASE_URL
+echo "DATABASE: " $DATABASE_URL
 
 #mkdir target
 
