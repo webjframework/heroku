@@ -1,6 +1,6 @@
 #!/bin/bash
 
-File='/app/utils/webjdata.ini'
+File='/app/utils/webj_webjdata.ini'
 originalstr='@DATABASE_SETTINGS@'
 if grep $originalstr  $File ; then 
 
