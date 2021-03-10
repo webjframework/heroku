@@ -2,7 +2,7 @@
 
 create new heroku account
 
-create new heroku app  and let the default stack heroku 16
+create new heroku app  and let the default stack 
 
 create heroku postgres (Resources)
 
